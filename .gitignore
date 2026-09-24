@@ -6,3 +6,12 @@ build
 
 # Ignore Kotlin plugin data
 .kotlin
+
+# Metals & Bloop (Scala / VS Code)
+.metals/
+.bloop/
+metals.sbt
+project/metals.sbt
+project/project/
+
+.vscode/
